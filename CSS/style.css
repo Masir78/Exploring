@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.smile {
+    width: 70px;
+    height: 70px;
+    background-color: #8c9ad8;
+    margin: auto;
+    margin-top: 45px;
+    border: 1px solid#8c9ad8;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    background-color: #6cc2ce;
+    margin: auto;
+    margin-top: 45px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.basics {
+    width: 380px;
+    height: 380px;
+    background-color: rgb(122, 118, 118);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-left: 0;
+}
+
+.app-store {
+    width: 380px;
+    height: 380px;
+    background-color: rgb(72, 139, 170);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-right: 0;
+}
+
+.text {
+    color: #fff;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text p {
+    font-size: 30px;
+    font-weight: 700;
+    /* width: 90%; */
+    margin-bottom: 20px;
+}
+
+.text h5 {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 991.98px) {
+    body {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    body {
+        width: 80%;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .basics, .app-store {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heading {
+        font-size: 20px;
+        text-align: center;
+    }
+}
